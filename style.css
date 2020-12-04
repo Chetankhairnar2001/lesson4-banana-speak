@@ -1,14 +1,22 @@
-var --primary=red;
-   *{
-           box-sizing: border-box;
-           margin: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nerko One', cursive;
     }
-       body{
-           height: 100%;
-       }
-       .margit{
-           margin: 0px auto;
+    :root{
+        --primary:rgb(209, 228, 36);
+    }
+    nav {
+        background-color: var(--primary);
+        text-align: center;
+    }
+       .main{
+           margin: auto;
            max-width: 80%;
+           padding: 1rem;
        }
        textarea{
            width: 80%;
@@ -28,10 +36,7 @@ var --primary=red;
            margin: 1rem;
            border: 1px solid black;
        }
-       .align{
-           text-align: center;
-           background-color: yellow;
-       }
+      
        footer{
         position: fixed;
         bottom: 0;
