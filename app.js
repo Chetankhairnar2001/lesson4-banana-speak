@@ -23,3 +23,5 @@ function translate(){
     }) 
 };
 inputbtn.addEventListener("click",translate);
+
+
