@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
     <style>
-       
+
+       .margit{
+           margin: 0px auto;
+           max-width: 80%;
+       }
        textarea{
            width: 80%;
            height: 10vh;
@@ -24,15 +28,20 @@
            margin: 1rem;
            border: 1px solid black;
        }
+       .align{
+           text-align: center;
+           background-color: yellow;
+       }
     </style>
 </head>
 <body>
-    <h1>Banana Speak</h1>
+    <h1 class="align">Banana Speak</h1>
+    <div class="margit">
     <textarea id="inputtxt" placeholder="put here in english language and get converted into minion language"></textarea>
     <button id="inputbtn" > Click me</button>
     <div style="font-size: large;">outwill will be shown here 👇</div>
-
     <div id="outputtxt"></div>
+    </div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
