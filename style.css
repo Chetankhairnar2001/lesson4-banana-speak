@@ -1,0 +1,42 @@
+var --primary=red;
+   *{
+           box-sizing: border-box;
+           margin: 0;
+    }
+       body{
+           height: 100%;
+       }
+       .margit{
+           margin: 0px auto;
+           max-width: 80%;
+       }
+       textarea{
+           width: 80%;
+           height: 10vh;
+           display: block;
+           padding: 1rem;
+           margin: 1rem;
+       }
+       #inputbtn{
+           margin: 0rem 1rem;
+       }
+       #outputtxt{
+           width: 80%;
+           height: 10vh;
+           display: block;
+           padding: 1rem;
+           margin: 1rem;
+           border: 1px solid black;
+       }
+       .align{
+           text-align: center;
+           background-color: yellow;
+       }
+       footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: var(--primary);
+        text-align: center;
+       }
