@@ -17,7 +17,7 @@ body{
        .main{
            margin: auto;
            max-width: 80%;
-           padding: 1rem;
+           /* padding: 1rem; */
        }
        textarea{
            width: 80%;
@@ -27,11 +27,14 @@ body{
            margin: 1rem;
        }
        #inputbtn{
-           /* margin: 0rem 1rem; */
+           background-color: var(--primary);
+           cursor: pointer;
+           border-radius: 10px;
        }
+
        #outputtxt{
            width: 80%;
-           height: 15vh;
+           height: 10vh;
            display: block;
            padding: 1rem;
            margin: 1rem;
@@ -52,4 +55,10 @@ body{
        .container{
            margin: 1rem;
            padding: 1rem;
+           font-size: 1.3rem;
+       }
+
+       .para{
+           padding: 0rem 1rem;
+           font-size: 1.1rem;
        }
